@@ -58,7 +58,7 @@ export class Household {
   /**
    * Décision de consommation/épargne
    */
-  decide Consumption(revenuDisponible, inflation, anticipations) {
+  decideConsumption(revenuDisponible, inflation, anticipations) {
     // Revenu permanent (lissage)
     const revenuPermanent = 0.7 * this.salaire + 0.3 * revenuDisponible;
     
