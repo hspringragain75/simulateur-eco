@@ -20,7 +20,7 @@ export class Household {
     // Préférences hétérogènes
     this.propensionConsommer = this.calculatePropensity();
     this.elasticiteOffre = this.calculateLaborElasticity();
-    this.aversion Risque = characteristics.aversionRisque || 2.0;
+    this.aversionRisque = characteristics.aversionRisque || 2.0;
   }
 
   calculatePropensity() {
